@@ -147,46 +147,8 @@ const quotesData = {
 
 The app supports both light and dark themes. Customize theme colors in your CSS variables or Tailwind configuration.
 
-## 🚀 Deployment
 
-### Deploy to Vercel (Recommended)
 
-1. Push your code to GitHub
-2. Connect your repository to Vercel
-3. Deploy with one click
-
-### Deploy to Netlify
-
-1. Build the project: `npm run build`
-2. Deploy the `out` folder to Netlify
-
-### Deploy to Other Platforms
-
-The app can be deployed to any platform that supports Next.js applications.
-
-## 🐛 Troubleshooting
-
-### Common Issues
-
-**Hydration Errors**:
-- Make sure `suppressHydrationWarning` is added to the HTML element
-- Check that theme provider is properly configured
-
-**ShadCN Components Not Found**:
-- Ensure all required components are installed
-- Check import paths are correct
-
-**Theme Toggle Not Working**:
-- Verify `next-themes` is installed
-- Check theme provider is wrapping the app
-
-### Getting Help
-
-If you encounter issues:
-1. Check the browser console for error messages
-2. Ensure all dependencies are installed
-3. Verify Node.js version compatibility
-4. Check that all files are in the correct locations
 
 ## 🤝 Contributing
 
